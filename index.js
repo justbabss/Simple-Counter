@@ -5,8 +5,7 @@ const Reset = document.querySelector("#reset")
 const Button2 = document.querySelector("#button2")
 
 let val = 0
-console.log(button1
-  )
+console.log(button1)
 const handlebutton1 = () => {
   val += Number(Inputfield.value)
   User.innerHTML = val
@@ -14,8 +13,7 @@ const handlebutton1 = () => {
   checkValue()
 }
 
-console.log(Button2
-  )
+console.log(Button2)
 const handlebutton2 = () => {
   val -= Number(Inputfield.value)
   User.innerHTML = val
@@ -23,8 +21,7 @@ const handlebutton2 = () => {
   checkValue()
 }
 
-console.log(Reset
-  )
+console.log(Reset)
 const handleReset = () => {
   val = 0
   User.innerHTML = val
